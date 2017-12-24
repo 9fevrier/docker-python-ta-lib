@@ -1,2 +1,4 @@
-# docker-python3-talib
+docker-python-ta-lib
+====================
+
 A Dockerfile for Python TA-Lib wrapper
