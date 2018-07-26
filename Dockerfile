@@ -2,6 +2,7 @@
 # ===================================================
 
 FROM python:3.7.0-alpine3.8
+MAINTAINER contact@9fevrier.com
 
 ENV PYTHON_TA_LIB_VERSION 0.4.17
 
