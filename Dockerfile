@@ -1,7 +1,9 @@
-# 9fevrier/python-ta-lib:python3.6.4-alpine3.7
-# ============================================
+# 9fevrier/python-ta-lib:0.4.17_python3.7.0-alpine3.8
+# ===================================================
 
-FROM python:3.6.4-alpine3.7
+FROM python:3.7.0-alpine3.8
+
+ENV PYTHON_TA_LIB_VERSION 0.4.17
 
 RUN apk add --no-cache --virtual build-deps \
         musl-dev \
@@ -17,7 +19,7 @@ RUN apk add --no-cache --virtual build-deps \
     && make \
     && make install \
     && pip3 install setuptools numpy \
-    && pip3 install ta-lib \
+    && pip3 install ta-lib==${PYTHON_TA_LIB_VERSION} \
     && rm -rf ta-lib* \
     && rm -r /root/.cache
 
