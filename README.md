@@ -77,7 +77,7 @@ Please refer to project's style guidelines and guidelines for submitting patches
 ### Thanks to the developers of the very useful dependencies...
 
 * [TA-Lib](https://sourceforge.net/projects/ta-lib/files/ta-lib/)
-* [mrjbq7](https://github.com/mrjbq7) for his great development of a [Python wrapper](https://github.com/mrjbq7/ta-lib). [TA-Lib](https://sourceforge.net/projects/ta-lib/files/ta-lib/).
+* [John Benediktsson](https://github.com/mrjbq7) for his great development of a [Python wrapper](https://github.com/mrjbq7/ta-lib). [TA-Lib](https://sourceforge.net/projects/ta-lib/files/ta-lib/).
 
 ## <a name="history"> History
 
