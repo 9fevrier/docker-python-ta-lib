@@ -12,6 +12,7 @@ A Dockerfile to build an image including Python TA-Lib wrapper and dependencies.
 * [Synopsis](#synopsis)
 * [Usage](#usage)
 * [Installation](#installation)
+* [Build](#build)
 * [Tests](#tests)
 * [Compatibility](#compatibility)
 * [Issues](#issues)
@@ -36,7 +37,19 @@ docker run -it 9fevrier/python-ta-lib
 docker pull 9fevrier/python-ta-lib
 ```
 
+## <a name="build"> Build
+
+```bash
+docker build -t 9fevrier/python-ta-lib .
+```
+
 ## <a name="tests"> Tests
+
+This command does not return error:
+
+```bash
+docker run --name python-ta-lib -t 9fevrier/travis-python-ta-lib python3 -c 'import talib'
+```
 
 
 ## <a name="compatibility"> Compatibility
