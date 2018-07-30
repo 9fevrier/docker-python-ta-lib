@@ -1,6 +1,10 @@
 Changelog of docker-python-ta-lib
 =================================
 
+## [v0.4.10_python3.6.4-alpine3.7_20180730](https://github.com/9fevrier/docker-python-ta-lib/tree/v0.4.10_python3.6.4-alpine3.7_20180730) (2018-07-30)
+
+* Reduce built image size.
+
 ## [v0.4.17_python3.7.0-alpine3.8_20180730](https://github.com/9fevrier/docker-python-ta-lib/tree/v0.4.17_python3.7.0-alpine3.8_20180730) (2018-07-30)
 
 * Reduce built image size.
