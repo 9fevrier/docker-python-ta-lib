@@ -9,4 +9,4 @@ install:
   - docker build -t 9fevrier/travis-python-ta-lib .
 
 script:
-  - docker run --name python-ta-lib -t 9fevrier/travis-python-ta-lib python3 -c 'import talib'
+  - docker run --rm --name python-ta-lib -t 9fevrier/travis-python-ta-lib python3 -c 'import talib'
