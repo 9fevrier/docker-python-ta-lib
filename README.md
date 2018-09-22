@@ -74,10 +74,11 @@ Please refer to project's style guidelines and guidelines for submitting patches
 
 ## <a name="credits"> Credits
 
-### Thanks to the developers of the very useful dependencies...
+### Thanks to the developers...
 
 * [TA-Lib](https://sourceforge.net/projects/ta-lib/files/ta-lib/)
 * [John Benediktsson](https://github.com/mrjbq7) for his great development of a [Python wrapper](https://github.com/mrjbq7/ta-lib). [TA-Lib](https://sourceforge.net/projects/ta-lib/files/ta-lib/).
+* [Domenico Silletti](https://github.com/dsilletti) for his [comment](https://github.com/mrjbq7/ta-lib/issues/157#issuecomment-367329661) to fix bug about small numbers.
 
 ## <a name="history"> History
 

@@ -20,6 +20,8 @@ RUN apk add --no-cache --virtual .build-deps \
     && curl -L -O http://prdownloads.sourceforge.net/ta-lib/ta-lib-0.4.0-src.tar.gz \
     && tar -zxf ta-lib-0.4.0-src.tar.gz \
     && cd ta-lib/ \
+    && sed -i 's/^#define TA_IS_ZERO(v).*$/#define TA_IS_ZERO(v) (((-0.000000000000000001)<v)\&\&(v<0.000000000000000001))/' src/ta_func/ta_utility.h \
+    && sed -i 's/^#define TA_IS_ZERO_OR_NEG(v).*$/#define TA_IS_ZERO_OR_NEG(v) (v<0.000000000000000001)/' src/ta_func/ta_utility.h \
     && ./configure --prefix=/usr \
     && make \
     && make install \
