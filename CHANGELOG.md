@@ -1,6 +1,11 @@
 Changelog of docker-python-ta-lib
 =================================
 
+## [v0.4.17_python3.7.0-alpine3.8](https://github.com/9fevrier/docker-python-ta-lib/tree/v0.4.17_python3.8.1-alpine3.11) (2020-01-06)
+
+* Use latest version ([v3.11](https://alpinelinux.org/posts/Alpine-3.11.0-released.html)) of [Alpine Linux](https://alpinelinux.org).
+* Use [Python](https://www.python.org/) [v3.8.1](https://www.python.org/downloads/release/python-381/).
+
 ## [v0.4.17_python3.7.0-alpine3.8_20180922](https://github.com/9fevrier/docker-python-ta-lib/tree/v0.4.17_python3.7.0-alpine3.8_20180730) (2018-09-22)
 
 * Fix bug about small numbers. Thank you to [Domenico Silletti](https://github.com/dsilletti) for his [comment](https://github.com/mrjbq7/ta-lib/issues/157#issuecomment-367329661).
