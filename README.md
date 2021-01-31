@@ -48,7 +48,7 @@ docker build -t 9fevrier/python-ta-lib .
 This command does not return error:
 
 ```bash
-docker run --name python-ta-lib -t 9fevrier/travis-python-ta-lib python3 -c 'import talib'
+docker run --name python-ta-lib -t 9fevrier/python-ta-lib python3 -c 'import talib'
 ```
 
 
